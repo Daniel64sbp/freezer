@@ -1,0 +1,26 @@
+<div class="container">
+	
+	<div class="row row-top">
+		<div class="col-xs-12">
+			<h1>Branch Name Generator</h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-3">
+			<div class="form-group">
+				<label for="type">Type</label>
+				<select id="type" class="form-control">
+					<option value="feature" selected>Feature</option>
+					<option value="bug">Bug</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="form-group">
+				<label for="ticket_name">Ticket Name</label>
+				<input type="text" id="ticket_name" class="form-control" />
+			</div>
